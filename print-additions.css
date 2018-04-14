@@ -1,0 +1,93 @@
+
+/*Avoid page breaks within images*/
+img {
+    page-break-before: auto; 
+    page-break-after: auto; 
+    page-break-inside: avoid; 
+}
+
+/*Hide the header widget area */
+	aside.widget-area.header-widget-area {
+		display: none !important;
+	}
+
+/*move the content up*/
+	.site-inner {
+		margin-top: 0rem;
+	}
+
+/*Delete link URL after the link text*/
+	article.entry a:after {
+		content: "" !important;
+	}
+a.entry-author-link:after {
+		content: "" !important;
+	}
+span.entry-comments-link a:after, span.entry-categories a:after, span.entry-tags a:after {
+		content: "" !important;
+	}
+p.site-title a:after, a.comment-author-link:after, time.comment-time a:after {
+		content: "" !important;
+	}
+div.author-box-content a:after {
+		content: "" !important;
+	}
+a.site-footer:after, wrap {
+		content: "" !important;
+	}
+p.site-footer:after, wrap {
+		content: "" !important;
+	}
+
+.site-footer a:after, wrap {
+		content: "" !important;
+	}
+
+body {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 12pt;
+}
+
+.entry-title {
+    text-align: left;
+    line-height: 1.2;
+    
+}
+
+.site-header {
+    display: none !important;
+}
+
+
+/* Author Box Styling --------------------------------------------------*/
+
+.author-box {
+    display: none !important;
+}
+
+blockquote,
+blockquote::before {
+	color: #3c3d3c;
+}
+
+blockquote {
+	margin: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+blockquote::before {
+	content: "\201C";
+	display: block;
+	font-size: 50px;
+	font-size: 5rem;
+	height: 0;
+	left: -30px;
+	position: relative;
+	top: -20px;
+    color: #E8564E;
+    
+    
+.ztb-scb-wrapper {
+    display: none !important;
+}
